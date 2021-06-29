@@ -44,5 +44,5 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceirirs/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ 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 }}
           publish_dir: ./dist
